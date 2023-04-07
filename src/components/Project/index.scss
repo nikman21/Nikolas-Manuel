@@ -1,0 +1,109 @@
+.project-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  width: 80%;
+  overflow: auto;
+}
+.project-card {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  background: #716A5C;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+  .card-body {
+    padding: 1.5rem;
+  }
+
+  .title {
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+    color: #5DB7de;
+    font-weight: 600;
+  }
+
+  .description {
+    color: #F1E9DB;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+
+  .buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+    #button {
+      display: inline-block;
+      font-size: medium;
+      padding: 1rem 2rem;
+      border-radius: 1rem;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 0.1rem;
+      transition: all 0.3s ease;
+    }
+    .code-button,.live-button {
+      background-color: #5DB7de;
+      color: #F1E9DB;
+
+      &:hover {
+        background: #A39B8B;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .title {
+    font-size: 3rem;
+  }
+
+  .description {
+    font-size: 1.2rem;
+  }
+
+  .buttons-container {
+    flex-direction: column;
+    gap: 1rem;
+
+    #button {
+      width: 50%;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+  
+  
+  
