@@ -81,25 +81,32 @@
         letter-spacing: 3px;
         animation: FadeIn 1s 1.8s backwards;
     }
-    .flat-button {
-        color: #5DB7de;
-        font-size: 18px;
-        font-weight: 400;
-        letter-spacing: 4px;
-        font-family: 'sans-serif';
-        text-decoration: none;
-        padding: 10px 30px;
-        border: 1px solid #5DB7de;
-        margin-top: 25px;
-        animation: fadeInAnimation 1s 1.8s backwards;
-        white-space: nowrap;
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    
+      .flat-button {
+          color: #5DB7de;
+          font-size: 18px;
+          font-weight: 400;
+          letter-spacing: 4px;
+          font-family: 'sans-serif';
+          text-decoration: none;
+          padding: 10px 30px;
+          border: 1px solid #5DB7de;
+          margin-top: 20px;
+          animation: fadeInAnimation 1s 1.8s backwards;
+          white-space: nowrap;
 
 
         &:hover {
             background-color: #5DB7de;
             color: #F1E9DB;
         }
-    }
+      }
+  }
 }
 @media screen and (max-width: 1200px) {
     .tags,

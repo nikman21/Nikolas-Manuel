@@ -1,7 +1,7 @@
 import './index.scss'
 import { Link, NavLink } from 'react-router-dom'
 import Profile from '../../assets/images/profile.jpeg'
-import Resume from '../../assets/images/N_resume.PDF'
+import Resume from '../../assets/images/Nik_Resume.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome,faEnvelope,faUser,faFile, faClose, faBars, faCode } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'

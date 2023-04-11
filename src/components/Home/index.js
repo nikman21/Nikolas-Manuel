@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import Profile from '../../assets/images/profile.jpeg'
+import Resume from '../../assets/images/Nik_Resume.pdf'
 
 import './index.scss'
 
@@ -47,7 +48,10 @@ const Home = () => {
                         />
                     </h1>
                     <h2>Web Developer</h2>
-                    <Link to="/contact" className='flat-button'>Contact Me</Link>
+                    <div className='button-container'>
+                        <Link to="/contact" className='flat-button'>Contact Me</Link>
+                        <a target="_blank" rel="noreferrer" href={Resume} className='flat-button'>Resume</a>
+                    </div>
                 </div>
             </div>
             <Loader type="pacman" loading={true}/>
