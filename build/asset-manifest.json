@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Nikolas-Manuel/static/css/main.c8d80c49.css",
+    "main.js": "/Nikolas-Manuel/static/js/main.1140078f.js",
+    "static/js/787.a2cb61a6.chunk.js": "/Nikolas-Manuel/static/js/787.a2cb61a6.chunk.js",
+    "static/media/profile.jpeg": "/Nikolas-Manuel/static/media/profile.c3e645c9fd4e4b15af26.jpeg",
+    "static/media/Nik_Resume.pdf": "/Nikolas-Manuel/static/media/Nik_Resume.226e6f4ec78ec66020cb.pdf",
+    "static/media/helvetica-neu.ttf": "/Nikolas-Manuel/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff": "/Nikolas-Manuel/static/media/LaBelleAurore.9c5433c64baa43d1d274.woff",
+    "static/media/LaBelleAurore.woff2": "/Nikolas-Manuel/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff": "/Nikolas-Manuel/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
+    "static/media/CoolveticaRg-Regular.woff2": "/Nikolas-Manuel/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/Nikolas-Manuel/index.html",
+    "main.c8d80c49.css.map": "/Nikolas-Manuel/static/css/main.c8d80c49.css.map",
+    "main.1140078f.js.map": "/Nikolas-Manuel/static/js/main.1140078f.js.map",
+    "787.a2cb61a6.chunk.js.map": "/Nikolas-Manuel/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8d80c49.css",
+    "static/js/main.1140078f.js"
+  ]
+}
