@@ -37,11 +37,9 @@ const About = () => {
           />
         </h1>
         <p>
-        Hello! I'm Nik, a full-stack developer with a passion for building intelligent systems 
-        that can transform the world. After completing my degree in Informatics from Arizona State
-        University, I embarked on a journey to explore the limitless possibilities of the tech world. As 
-        a result, I've become proficient in a wide range of technologies, from front-end frameworks 
-        like React to back-end languages like Python and Java.
+        Hello! I'm a full-stack developer with a passion for building intelligent systems that can transform the world.
+        Currently pursuing my degree in Informatics from Arizona State University, I'm on a journey to explore the limitless possibilities 
+        of the tech world. As a result, I've become proficient in a wide range of technologies, from front-end frameworks like React to back-end languages like Python and Java.
         </p>
         <p>
         But my interests extend beyond just coding. I'm also an avid self-improvement enthusiast, 

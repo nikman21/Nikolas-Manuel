@@ -31,7 +31,7 @@ const Sidebar = () => {
         <img src={Profile} alt="logo" />
       </Link>
       <nav className={showNav ? 'mobile-show' : ''}>
-        <NavLink exact="true" activeclassname="active" to="/" onClick={() => setShowNav(false)}>
+        <NavLink exact="true" activeclassname="active" className="home-link" to="/" onClick={() => setShowNav(false)}>
           <FontAwesomeIcon icon={faHome} />
         </NavLink>
         <NavLink
@@ -42,6 +42,7 @@ const Sidebar = () => {
           onClick={() => setShowNav(false)}
         >
           <FontAwesomeIcon icon={faUser} />
+         
         </NavLink>
         <NavLink
           exact="true"

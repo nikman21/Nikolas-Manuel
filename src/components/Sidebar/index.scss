@@ -63,11 +63,22 @@
       background-color: #A39B8B
     }
 
-    a:hover, button:hover {
+    a:hover {
       border: 3px solid #716A5C;
       background-color: #716A5C;
       border-radius: 8px;
+      svg {
+        opacity: 0;
+      }
 
+        &:after {
+          opacity: 1;
+        }
+    }
+    button:hover {
+      border: 3px solid #716A5C;
+      background-color: #716A5C;
+      border-radius: 8px;
     }
 
     button.active {
@@ -85,7 +96,7 @@
     a:after, button:after {
       content: '';
       position: absolute;
-      font-size: 9px;
+      font-size: 10px;
       letter-spacing: 2px;
       bottom: 0;
       display: block;
@@ -93,19 +104,43 @@
       text-align: center;
       opacity: 0;
       transition: all 0.3s ease
-      }
     }
-    
+  }
+
+  a.home-link {
+    &:after {
+      content: 'Home';
+    }
+  }
+
+  a.about-link {
+    &:after {
+      content: 'About';
+    }
+  }
+
+  a.contact-link {
+    &:after {
+      content: 'Contact';
+    }
+  }
+
+  a.project-link {
+    &:after {
+      content: 'Projects';
+    }
+  }
+
   
-    ul {
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
-    display: block;
-    padding: 0;
-    list-style: none;
-    text-align: center;
-    margin: 0;
+  ul {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  display: block;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  margin: 0;
   
     li {
       a {
@@ -135,8 +170,11 @@
     position: initial;
     height: auto;
     min-height: auto;
+    button{
+      margin: 5px;
+    }
 
-    ul, nav {
+    nav,ul {
       display: none;
     }
   
