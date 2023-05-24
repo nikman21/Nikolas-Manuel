@@ -14,6 +14,7 @@ const projects = [
       'This code creates a web-based drawing app with a grid of cells. Users can change brush size, select colors, erase, and clear the grid. The initial brush size is 1.',
     codeLink: 'https://github.com/nikman21/etch-a-sketch',
     liveLink: 'https://nikman21.github.io/etch-a-sketch/',
+    language: 'Javascript HTML CSS'
   },
   {
     title: 'Library',
@@ -21,32 +22,52 @@ const projects = [
       'This code is for a web app that allows users to manage a library of books. It defines a Book object constructor and a function to add books to an array, and also has functions to display and edit the book list. The code uses event listeners to handle user input and update the book list accordingly.',
     codeLink: 'https://github.com/nikman21/My-Library',
     liveLink: 'https://nikman21.github.io/My-Library/',
+    language: 'Javascript HTML CSS'
   },
   {
-    title: 'Landing Page for MMA Gym',
+    title: 'Landing Page',
     description:
-      'Simple Landing Page for MMA Gym.It is fully responsive and is built with HTML and CSS.',
+      'Simple Landing Page for MMA Gym.It is fully responsive and is built with HTML and CSS, Bootstrap, Jquery, and Javascript',
     codeLink: 'https://github.com/nikman21/landing-page',
     liveLink: 'https://nikman21.github.io/landing-page/',
+    language: 'Javascript HTML CSS Bootstrap Jquery'
   },
   {
-    title: 'Simple Signup Form',
+    title: 'Signup Form',
     description:
       'Simple signup form for a sample. It is fully responsive and is built with HTML and CSS.',
     codeLink: 'https://github.com/nikman21/signup-form',
     liveLink:'https://nikman21.github.io/signup-form/',
+    language: 'Javascript HTML CSS'
   },
   {
-    title: 'Connect 4',
-    description:
-      'Created using vanilla javascript. It is played in the console.  It demonstrates the use of arrays, loops, objects, and functions.',
-    codeLink: "",
+    title: 'Sandwhich shop',
+    description: 'Java program that demostrates the decorator pattern, factory pattern and OOP. I prompts user to create their order and then outputs a receipt ',
+    codeLink: "https://github.com/nikman21/Sandwich-Shop",
+    language: 'Java'
+    
   },
   {
     title: 'Yahtzee',
     description:
-      'Yahtzee game created using java. It demonstrates the use of aobject oriented programming.',
+      'Yahtzee game created using Java. It demonstrates the use of object oriented programming.',
     codeLink: 'https://github.com/nikman21/yahtzee-game',
+    language: 'Java'
+  },
+  {
+    title: 'Gradebook',
+    description:
+      'A simple multi-table database & application that keeps track of students and their grades.  The database contains a Students table and an Assignments Table.  The students have a one-to-many relationship with assignments.',
+    codeLink: 'https://github.com/nikman21/student-gradebook',
+    language: 'Java'
+  },
+  
+  {
+    title: 'Guessing Game',
+    description:
+      'Simple number guessing game. The server will maintain the a “number guessing game” that clients will connect to. The server will pick a number and client will send guesses in. When a client guesses, the server will give them feedback.',
+    codeLink: 'https://github.com/nikman21/number-guessing-game',
+    language: 'Java Networking'
   },
 ];
 
@@ -83,6 +104,7 @@ const Project = () => {
               <Card className='project-card'>
                 <Card.Body>
                   <Card.Title className='title'>{project.title}</Card.Title>
+                  <Card.Text className='language'> {project.language}</Card.Text>
                   <Card.Text className='description'>{project.description}</Card.Text>
                   <div className="buttons-container">
                     <Button
